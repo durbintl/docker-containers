@@ -33,7 +33,7 @@ apt-get install -y wget openjdk-7-jre-headless supervisor && \
 
 # fetch simplehelp and unpack
 cd /root && \
-wget --no-check-certificate --directory-prefix=/tmp http://simple-help.com/releases/SimpleHelp-linux-amd64.tar.gz && \ 
+wget --no-check-certificate --directory-prefix=/tmp https://simple-help.com/releases/beta-55/SimpleHelp-linux-amd64.tar.gz && \ 
 tar -xvf /tmp/SimpleHelp-linux-amd64.tar.gz && \
 
 # set supervisor file
